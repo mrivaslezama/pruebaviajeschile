@@ -1,54 +1,40 @@
-html {
-    scroll-behavior: smooth;
-}
-/* Diferentes tipografias */
-/*    font-family: 'Anek Bangla', sans-serif;
-
-    font-family: 'Open Sans', sans-serif;
-
-    font-family: 'Oswald', sans-serif;
-
-    font-family: 'Poppins', sans-serif;*/
-
-body{
-    font-family: 'Anek Bangla', sans-serif;
+// Función para cambiar clases del navbar
+function cambiarClasesNavbar() {
+   $("#navbar").removeClass("bg-transparent").addClass("bg-primary");
 }
 
-/* Diferente tipografia para títulos */
-.titulo{
-    font-family: 'Poppins', sans-serif;*/
+// Evento de scroll para cambiar clases del navbar
+$(window).scroll(function(event){
+   cambiarClasesNavbar();
+});
+
+// Evento de clic en el botón para cambiar clases del navbar
+$("#btn-nav").click(function(){
+   cambiarClasesNavbar();
+});
+
+// Evento de clic en el botón para mostrar/ocultar formulario de contacto
+$("#btn-comenzar").click(function(){
+   $("#pre-formulario, #formulario").toggle();
+});
+
+// Función para smooth scroll
+function smoothScrollTo(hash) {
+   if (hash !== "") {
+      $('html, body').animate({
+         scrollTop: $(hash).offset().top
+      }, 1800, function () {
+         window.location.hash = hash;
+      });
+   }
 }
 
-.logo{
-    width: 2rem;
-}
-/* Card */
-.tarjeta{
-    width: 16rem;
-}
+// Eventos de clic para smooth scroll a diferentes secciones
+$("#qsomos, #featured, #qFormulario").on('click', function (event) {
+   smoothScrollTo(this.hash);
+   event.preventDefault();
+});
 
-/* MD */
-@media only screen and (min-width: 720px) {
-    .rel-img {
-        height: 10em;
-    }
-
-    .c2b {
-        height: 10em;
-    }
-}
-
-/* Formularios */
-.formulario{
-    height:20rem;
-    max-width:40rem;
-}
-
-/* Footer */
-footer{
-    height:6rem;
-}
-
-footer h2{
-    font-weight: bold;
-}
+// Inicialización de Tooltips (si se utiliza Bootstrap)
+// Asegúrate de incluir correctamente los scripts de Bootstrap antes de esto.
+$('[data-bs-toggle="tooltip"]').tooltip();
