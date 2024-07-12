@@ -18,10 +18,17 @@ https://mrivaslezama.github.io/pruebaviajeschile/
 Capturas de Pantalla del Proyecto
 
 Vista del inicio
-![alt text](inicio.png)
+
+![alt text](/assets/img/inicio.png)
+
 Sección quienes somos
-![alt text](somos.png)
+
+![alt text](/assets/img/somos.png)
+
 Sección destinos destacados
-![alt text](destacado.png)
+
+![alt text](/assets/img/destacado.png)
+
 Sección contacto
-![alt text](footer.png)
+
+![alt text](/assets/img/footer.png)
