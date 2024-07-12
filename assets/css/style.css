@@ -14,6 +14,41 @@ body{
     font-family: 'Anek Bangla', sans-serif;
 }
 
+/* Diferente tipografia para títulos */
+.titulo{
+    font-family: 'Poppins', sans-serif;*/
+}
+
 .logo{
     width: 2rem;
+}
+/* Card */
+.tarjeta{
+    width: 16rem;
+}
+
+/* MD */
+@media only screen and (min-width: 720px) {
+    .rel-img {
+        height: 10em;
+    }
+
+    .c2b {
+        height: 10em;
+    }
+}
+
+/* Formularios */
+.formulario{
+    height:20rem;
+    max-width:40rem;
+}
+
+/* Footer */
+footer{
+    height:6rem;
+}
+
+footer h2{
+    font-weight: bold;
 }
