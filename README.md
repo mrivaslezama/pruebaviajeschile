@@ -10,10 +10,18 @@ Sistema Operativo: desarrollado bajo manjaro linux y vscode - ide.
 
 Autor
 Miguel Rivas
+Repositorio
+https://github.com/mrivaslezama/pruebaviajeschile
+Url
+https://mrivaslezama.github.io/pruebaviajeschile/
 
 Capturas de Pantalla del Proyecto
 
+Vista del inicio
 ![alt text](inicio.png)
+Sección quienes somos
 ![alt text](somos.png)
+Sección destinos destacados
 ![alt text](destacado.png)
+Sección contacto
 ![alt text](footer.png)
