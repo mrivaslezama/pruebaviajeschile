@@ -13,5 +13,7 @@ Miguel Rivas
 
 Capturas de Pantalla del Proyecto
 
-
-![alt text](image.png)
+![alt text](inicio.png)
+![alt text](somos.png)
+![alt text](destacado.png)
+![alt text](footer.png)
