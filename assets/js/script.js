@@ -30,7 +30,7 @@ function cambiarClasesNavbar() {
  }
  
  // Eventos de clic para smooth scroll a diferentes secciones
- $("#qsomos, #destacados, #formulario").on('click', function (event) {
+ $("#somos, #destacados, #formulario").on('click', function (event) {
     smoothScrollTo(this.hash);
     event.preventDefault();
  });
